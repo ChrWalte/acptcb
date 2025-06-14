@@ -1,0 +1,9 @@
+target/         # Ignore compiled binaries
+Cargo.lock      # Ignore dependency lock file
+*.rs.bk         # Ignore backup Rust files
+.git/           # Ignore Git directory
+.dockerignore   # Ignore itself
+README.md       # Ignore documentation files
+.env            # Ignore environment files containing secrets
+scripts/        # Ignore scripts
+.vs             # Ignore ide files
